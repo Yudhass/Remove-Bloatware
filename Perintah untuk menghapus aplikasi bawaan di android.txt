@@ -1,0 +1,9 @@
+
+
+pm uninstall -k --user 0 package name
+
+download app inspector
+adb shell
+pm uninstall -k --user 0 com.mipay.wallet.in
+package name aplikasi android yang mau dihapus cari di aplikasi android "app inspector" yah
+kemudian ganti tulisan package name pada perintah di atas jadi nama package name aplikasi android yang mau di hapus
