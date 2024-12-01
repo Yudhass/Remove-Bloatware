@@ -13,10 +13,11 @@ Keberadaan bloatware bisa berdampak negatif pada kinerja perangkat. Aplikasi ter
 6. Sambungkan PC/Leptop anda ke handphone dengan menggunakan kabel usb
 7. Buka cmd atau aplikasi yang sudah di install di PC/Leptop anda
 8. Ketikan `adb shell` untuk masuk kedalam handphone dengan terminal cmd
-9. Buka aplikasi `app inspector` untuk melihat package dari aplikasi yang ingin dihapus
-10. Ketikan perintah `pm uninstall -k --user 0 package name` untuk "package name" disesuaikan nama dari package yang tertera pada app inspector
-11. Contoh `pm uninstall -k --user 0 com.google.chrome`
-12. Tunggu hingga proses selesai dan terminal memberikan pesan feedback `Success`
+9. Pastikan izinkan akses pada handphone android anda
+10. Buka aplikasi `app inspector` untuk melihat package dari aplikasi yang ingin dihapus
+11. Ketikan perintah `pm uninstall -k --user 0 package name` untuk "package name" disesuaikan nama dari package yang tertera pada app inspector
+12. Contoh `pm uninstall -k --user 0 com.google.chrome`
+13. Tunggu hingga proses selesai dan terminal memberikan pesan feedback `Success`
 
 
 ## Packed by www.androidmtk.com
